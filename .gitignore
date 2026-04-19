@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Env
+.env
+.env.local
+
+# Data
+data/*.json
+data/*.csv
+data/*.parquet
+!data/.gitkeep
+
+# Docker / build
+*.log
+
+# Ollama models (если будут локальные)
+ollama_data/
